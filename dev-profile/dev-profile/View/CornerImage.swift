@@ -20,7 +20,8 @@ class CornerImage: UIImageView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        layer.cornerRadius = 3.0
+        layer.cornerRadius = 8.0
+        layer.masksToBounds = true
     }
 
 }
